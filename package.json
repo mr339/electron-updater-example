@@ -17,7 +17,12 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "publish": [{
+             "provider": "github",
+             "owner": "mr339",
+             "repo": "electron-updater-example"
+         }],
+    "appId": "com.github.mr339.electronupdaterexample",
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
