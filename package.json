@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -17,11 +17,13 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "publish": [{
-             "provider": "github",
-             "owner": "mr339",
-             "repo": "electron-updater-example"
-         }],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "mr339",
+        "repo": "electron-updater-example"
+      }
+    ],
     "appId": "com.github.mr339.electronupdaterexample",
     "afterSign": "./build/notarize.js",
     "mac": {
