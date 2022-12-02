@@ -117,12 +117,12 @@ app.on('window-all-closed', () => {
 
 
 app.on('ready', function () {
-  // autoUpdater.setFeedURL({
-  //   provider: 'github',
-  //   owner: 'mr339',
-  //   repo: 'electron-updater-example',
-  //   token: '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',
-  // });
+  autoUpdater.setFeedURL({
+    provider: 'github',
+    owner: 'mr339',
+    repo: 'electron-updater-example',
+    token: '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',
+  });
   autoUpdater.checkForUpdatesAndNotify();
 });
 
