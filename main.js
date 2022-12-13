@@ -121,7 +121,7 @@ app.on('ready', function () {
     provider: 'github',
     owner: 'mr339',
     repo: 'electron-updater-example',
-    token: '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',
+    token: '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',
   });
   autoUpdater.checkForUpdatesAndNotify();
 });
